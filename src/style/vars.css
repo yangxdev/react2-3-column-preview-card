@@ -1,0 +1,90 @@
+:root {
+  --color-brightorange: hsl(31, 77%, 52%);
+  --color-darkcyan: hsl(184, 100%, 22%);
+  --color-verydarkcyan: hsl(179, 100%, 13%);
+  --color-transparentwhite: hsla(0, 0%, 100%, 0.75);
+  --color-verylightgray: hsl(0, 0%, 95%);
+  --borderradius-main: 7.5px;
+}
+
+.brightorange {
+    background-color: var(--color-brightorange);
+}
+.darkcyan {
+    background-color: var(--color-darkcyan);
+}
+.verydarkcyan {
+    background-color: var(--color-verydarkcyan);
+}
+
+.main {
+  background-color: var(--color-verylightgray);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 650px;
+  height: 50vh;
+  position: relative;
+  border-radius: 10px;
+}
+
+.product {
+    padding: 30px;
+    color: var(--color-transparentwhite);
+    position: relative;
+}
+
+.title {
+    font-family: Big Shoulders Display, "Times New Roman", Times, serif;
+    font-size: 2.1rem;
+    margin-top: 25px;
+    color: white;
+}
+
+.description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+
+.button {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    border: 0px;
+    background-color: white;
+}
+.button.brightorange {
+    color: var(--color-brightorange);
+}
+.button.darkcyan {
+    color: var(--color-darkcyan);
+}
+.button.verydarkcyan {
+    color: var(--color-verydarkcyan);
+}
+
+
+.start {
+    border-top-left-radius: var(--borderradius-main);
+    border-bottom-left-radius: var(--borderradius-main);
+}
+
+.end {
+    border-top-right-radius: var(--borderradius-main);
+    border-bottom-right-radius: var(--borderradius-main);
+}
+
