@@ -71,24 +71,6 @@
   border: 0px;
   background-color: white;
 }
-@media (hover: hover) and (pointer: fine) {
-  .button:hover {
-    box-sizing: border-box;
-    box-shadow: inset 0px 0px 0px 1.5px var(--color-verylightgray);
-  }
-  .button.brightorange:hover {
-    background-color: var(--color-brightorange);
-    color: var(--color-verylightgray);
-  }
-  .button.darkcyan:hover {
-    background-color: var(--color-darkcyan);
-    color: var(--color-verylightgray);
-  }
-  .button.verydarkcyan:hover {
-    background-color: var(--color-verydarkcyan);
-    color: var(--color-verylightgray);
-  }
-}
 
 .button.brightorange {
   color: var(--color-brightorange);
