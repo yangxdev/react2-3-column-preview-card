@@ -7,14 +7,18 @@
   --borderradius-main: 7.5px;
 }
 
+* {
+  transition: 0.15s ease;
+}
+
 .brightorange {
-    background-color: var(--color-brightorange);
+  background-color: var(--color-brightorange);
 }
 .darkcyan {
-    background-color: var(--color-darkcyan);
+  background-color: var(--color-darkcyan);
 }
 .verydarkcyan {
-    background-color: var(--color-verydarkcyan);
+  background-color: var(--color-verydarkcyan);
 }
 
 .main {
@@ -28,63 +32,82 @@
 
 .card {
   display: flex;
-  width: 650px;
-  height: 50vh;
+  width: 700px;
+  height: 55vh;
   position: relative;
   border-radius: 10px;
 }
 
 .product {
-    padding: 30px;
-    color: var(--color-transparentwhite);
-    position: relative;
+  padding: 35px;
+  color: var(--color-transparentwhite);
+  position: relative;
 }
 
 .title {
-    font-family: Big Shoulders Display, "Times New Roman", Times, serif;
-    font-size: 2.1rem;
-    margin-top: 25px;
-    color: white;
+  font-family: Big Shoulders Display, "Times New Roman", Times, serif;
+  font-size: 2.1rem;
+  margin-top: 25px;
+  color: white;
 }
 
 .description {
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-top: 25px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 25px;
 }
 
 .button {
-    position: absolute;
-    bottom: 30px;
-    left: 30px;
-    cursor: pointer;
-    font-size: 0.85rem;
-    padding: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 20px;
-    font-weight: 700;
-    border: 0px;
-    background-color: white;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  font-weight: 700;
+  border: 0px;
+  background-color: white;
 }
-.button.brightorange {
-    color: var(--color-brightorange);
-}
-.button.darkcyan {
-    color: var(--color-darkcyan);
-}
-.button.verydarkcyan {
-    color: var(--color-verydarkcyan);
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px 1.5px var(--color-verylightgray);
+  }
+  .button.brightorange:hover {
+    background-color: var(--color-brightorange);
+    color: var(--color-verylightgray);
+  }
+  .button.darkcyan:hover {
+    background-color: var(--color-darkcyan);
+    color: var(--color-verylightgray);
+  }
+  .button.verydarkcyan:hover {
+    background-color: var(--color-verydarkcyan);
+    color: var(--color-verylightgray);
+  }
 }
 
+.button.brightorange {
+  color: var(--color-brightorange);
+}
+
+.button.darkcyan {
+  color: var(--color-darkcyan);
+}
+
+.button.verydarkcyan {
+  color: var(--color-verydarkcyan);
+}
 
 .start {
-    border-top-left-radius: var(--borderradius-main);
-    border-bottom-left-radius: var(--borderradius-main);
+  border-top-left-radius: var(--borderradius-main);
+  border-bottom-left-radius: var(--borderradius-main);
 }
 
 .end {
-    border-top-right-radius: var(--borderradius-main);
-    border-bottom-right-radius: var(--borderradius-main);
+  border-top-right-radius: var(--borderradius-main);
+  border-bottom-right-radius: var(--borderradius-main);
 }
-

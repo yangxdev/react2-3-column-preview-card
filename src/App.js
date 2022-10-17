@@ -1,6 +1,7 @@
 import "./App.css";
 import "./style/fonts.css";
 import "./style/vars.css";
+import "./style/mobile.css";
 import React from 'react';
 import Card from './components/card.js';
 

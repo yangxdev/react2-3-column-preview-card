@@ -31,7 +31,7 @@ class Card extends Component {
           icon={iconLuxury}
           title="LUXURY"
           description="Cruise in the best car brands without the bloated prices. 
-                Enjoy the enhanced comfort of a luxury rental and arrive in style"
+                Enjoy the enhanced comfort of a luxury rental and arrive in style."
           buttonText="Learn More"
         />
       </div>

@@ -1,0 +1,47 @@
+@media screen and (max-width: 735px) {
+  .card {
+    flex-direction: column;
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 92.5%;
+    border-radius: 7.5px;
+  }
+
+  .start {
+    border-radius: 0px;
+    border-top-left-radius: 7.5px;
+    border-top-right-radius: 7.5px;
+  }
+  .end {
+    border-radius: 0px;
+    border-bottom-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+  }
+
+  .button {
+    margin-top: 25px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px 1.5px var(--color-verylightgray);
+  }
+  .button.brightorange:hover {
+    background-color: var(--color-brightorange);
+    color: var(--color-verylightgray);
+  }
+  .button.darkcyan:hover {
+    background-color: var(--color-darkcyan);
+    color: var(--color-verylightgray);
+  }
+  .button.verydarkcyan:hover {
+    background-color: var(--color-verydarkcyan);
+    color: var(--color-verylightgray);
+  }
+}
